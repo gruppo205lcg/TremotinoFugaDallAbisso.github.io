@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="tremotino.css">
+  <title> TREMOTINO - Fuga dall'abisso </title>
+</head>
+
+<body style="background-color: #4f342e">
+
+<div class="sfondo">
+
+    <div class="mySlides fade">
+      <img src="sprites/Slideshow/1_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+    </div>
+
+	  <div class="mySlides fade">
+	    <img src="sprites/Slideshow/2_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="sprites/Slideshow/3_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+	  <div class="mySlides fade">
+	    <img src="sprites/Slideshow/4_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+    <div class="mySlides fade">
+	    <img src="sprites/Slideshow/5_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+    <div class="mySlides fade">
+	    <img src="sprites/Slideshow/6_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+    <div class="mySlides fade">
+	    <img src="sprites/Slideshow/7_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+	  </div>
+
+    <div class="mySlides fade">
+	    <img src="sprites/Slideshow/8_scena.jpg" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;">
+
+    <div class="play1">
+	    <a href="istruzioni.html"><img src="sprites/Pulsanti/bottone%20play.png" alt="play1"></a>
+           </div>
+	  </div>
+
+	  <a class="next" onclick="plusSlides(1)"> <img src="sprites/Slideshow/layerbottone.png" class="centro" style="width:100%; max-width: 1024px; position: absolute; margin: auto; top: 0; left: 0; right: 0; bottom: 0;"> </a>
+</div><br>
+
+  <script>
+		  var slideIndex = 1;
+		 showSlides(slideIndex);
+
+			  function plusSlides(n) {
+		    showSlides(slideIndex += n);
+			  }
+
+
+		  function currentSlide(n) {
+		    showSlides(slideIndex = n);
+		  }
+		  function showSlides(n) {
+		    var i;
+		    var slides = document.getElementsByClassName("mySlides");
+		    if (n > slides.length) {slideIndex = slide.length}
+		    if (n < 1) {slideIndex = slides.length}
+		    for (i = 0; i < slides.length; i++) {
+		        slides[i].style.display = "none";
+		    }
+		    slides[slideIndex-1].style.display = "block";
+		  }
+
+  </script>
+</body>
+</html>

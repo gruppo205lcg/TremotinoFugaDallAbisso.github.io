@@ -1,0 +1,79 @@
+.sfondo
+{
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 0;
+}
+
+.crediti
+{
+	position: absolute;
+	display:block;
+	margin-left: 7%;
+	margin-right: auto;
+	top: 6%;
+	width: 1024px;
+	height: 768px;
+	float: left;
+	z-index: 1;
+}
+
+.chiudi
+{
+	position: absolute;
+	right: 22%;
+	top: 14.2%;
+	width: 35px;
+	height: 35px;
+	float: left;
+	z-index: 1;
+}
+
+.storia
+{
+	position: absolute;
+	margin-left: 38%;
+	margin-right: auto;
+	display:block;
+	right: auto;
+	top: 480px;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.play
+{
+	position: absolute;
+	left: auto;
+	right: 38%;
+	top: 480px;
+	width: 71px;
+	height: 82px;
+	z-index: 1;
+}
+
+.play1
+{
+	position: absolute;
+	left: 6%;
+	transform: scale(.7);
+	top: 35px;
+	width: 71px;
+	height: 82px;
+	z-index: 1;
+}
+
+.play2 {
+	position: fixed;
+	left: 19%;
+	transform: scale(.7);
+	top: 35px;
+	width: 71px;
+	height: 82px;
+	z-index: 1;
+}
